@@ -1,9 +1,8 @@
-Num reino distante, onde as árvores sussurravam segredos ao vento e as estrelas dançavam em uma sinfonia cósmica, vivia um curioso inventor chamado Amadeus. Seu laboratório era um emaranhado de engrenagens e frascos borbulhantes, onde ele passava noites insones em busca da fórmula para transformar sonhos em realidade.
-
-Em uma noite estrelada, enquanto Amadeus mexia em seus caldeirões, uma luz misteriosa banhou seu laboratório. Uma criatura brilhante, meio fada meio máquina, materializou-se diante dele. Era Lumina, a guardiã dos sonhos perdidos, enviada pelos astros para ajudar Amadeus em sua busca.
-
-Juntos, embarcaram em uma jornada através de florestas encantadas e montanhas majestosas, desvendando enigmas e desafiando as leis da física. Cada descoberta os aproximava do elusivo segredo que unia os reinos dos sonhos e da realidade.
-
-No ápice de sua aventura, Amadeus percebeu que a verdadeira alquimia estava na jornada em si, nas amizades feitas e nos desafios superados. Ao alcançar a fronteira entre os mundos, ele não apenas desvendou o mistério, mas também aprendeu a importância de sonhar com os pés firmemente plantados na realidade.
-
-E assim, sob o brilho das estrelas, Amadeus e Lumina retornaram ao seu reino, levando consigo a magia que nasce quando a imaginação e a experiência se entrelaçam numa dança eterna.
+Num reino distante, onde as árvores sussurravam segredos
+ao vento e as estrelas dançavam em uma sinfonia cósmica,
+vivia um curioso inventor chamado Amadeus. Seu laboratório
+era um emaranhado de engrenagens e frascos borbulhantes,
+onde ele passava noites insones em busca da fórmula para transformar sonhos em realidade.
+Em uma noite estrelada, enquanto Amadeus mexia em seus 
+caldeirões, uma luz misteriosa banhou seu laboratório. 
+Uma criatura brilhante, meio fada meio máquina.

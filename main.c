@@ -18,7 +18,7 @@ int main(void)
     char *line;
 
     // Lê o arquivo linha por linha usando a função get_next_line
-    while ((line = get_next_line(fd)) != NULL)
+    while ((line = get_next_line(fd)))
     {
         // Imprime a linha lida
         printf("%s\n", line);

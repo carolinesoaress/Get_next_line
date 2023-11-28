@@ -1,20 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: carol <carol@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/23 17:27:41 by cagoncal          #+#    #+#             */
+/*   Updated: 2023/11/28 15:44:46 by carol            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 10
-# endif
+# include <unistd.h>
+# include <stdlib.h>
 
 char		*get_next_line(int fd);
-char		*gnl_strchr(const char *str, int argument);
-size_t		gnl_strlcpy(char *dest, const char *src, size_t destsize);
-char		*gnl_substr(char const *s, unsigned int start, size_t len);
-char		*gnl_strjoin(const char *s1, const char *s2);
-char		*gnl_strdup(char *src);
-size_t	ft_strlen(char *str);
+char		*ft_strchr(const char *str, int c);
+size_t		ft_strlcpy(char *dest, const char *src, size_t n);
+char		*ft_strjoin(char const *s1, char const *s2);
+int			ft_strlen(const char *str);
+char		*read_line(int fd, char *remainder);
+char		*ft_strdup(const char *str);
+char 	    *ft_cpy(char *line, int	pos);
+char	    *generate_line_return(char *line);
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 10 
+# endif
 
 #endif
