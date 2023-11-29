@@ -6,7 +6,7 @@
 /*   By: carol <carol@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 17:27:41 by cagoncal          #+#    #+#             */
-/*   Updated: 2023/11/28 15:44:46 by carol            ###   ########.fr       */
+/*   Updated: 2023/11/28 18:30:16 by carol            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ char		*ft_strjoin(char const *s1, char const *s2);
 int			ft_strlen(const char *str);
 char		*read_line(int fd, char *remainder);
 char		*ft_strdup(const char *str);
-char 	    *ft_cpy(char *line, int	pos);
-char	    *generate_line_return(char *line);
+char		*ft_cpy(char *line, int pos);
+char		*generate_line_return(char *line);
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10 

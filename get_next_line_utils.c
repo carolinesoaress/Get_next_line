@@ -6,7 +6,7 @@
 /*   By: carol <carol@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 15:01:53 by cagoncal          #+#    #+#             */
-/*   Updated: 2023/11/28 15:45:38 by carol            ###   ########.fr       */
+/*   Updated: 2023/11/28 18:28:03 by carol            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,23 +30,21 @@ char	*ft_strchr(const char *str, int c)
 	return ((char *) str);
 }
 
-char 	*ft_cpy(char *line, int	pos)
+char	*ft_cpy(char *line, int pos)
 {
 	char	*line_to_return;
 	int		i;
-	
+
 	i = 0;
-	if(!line || pos < 0)
+	if (!line || pos < 0)
 		return (NULL);
-		
 	line_to_return = (char *)malloc(sizeof(char) * (pos + 1));
 	if (!line_to_return)
-		return(NULL);
-	while(line && pos >= 0)
+		return (NULL);
+	while (line && i < pos)
 	{
 		line_to_return[i] = line[i];
 		i++;
-		pos--;
 	}
 	line_to_return[i] = '\0';
 	return (line_to_return);
@@ -76,6 +74,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		i++;
 	}
 	str3[n + i] = '\0';
+	free ((char *)s1);
 	return (str3);
 }
 
