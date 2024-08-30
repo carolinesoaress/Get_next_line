@@ -46,4 +46,3 @@ O projeto "Get Next Line" oferece um aprendizado fundamental em manipulação de
 
 - Pensamento Crítico e Resolução de Problemas: A necessidade de otimizar e fazer o código funcionar corretamente em diferentes condições estimula o desenvolvimento de habilidades de resolução de problemas.
 
-Esse projeto não só aprofunda seu conhecimento em C, mas também prepara você para desafios futuros, onde a manipulação eficiente de dados e o gerenciamento adequado de recursos são essenciais.
