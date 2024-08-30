@@ -34,7 +34,7 @@ Substitua n pelo tamanho desejado para o buffer.
 - Utilize a função get_next_line para ler arquivos ou entrada padrão, chamando-a repetidamente em um loop para processar o texto linha por linha.
 
 Considerações Finais
-- O projeto "Get Next Line" oferece um aprendizado fundamental em manipulação de arquivos e gerenciamento de memória em C. Ao trabalhar nesse projeto, você desenvolve habilidades cruciais, como:
+O projeto "Get Next Line" oferece um aprendizado fundamental em manipulação de arquivos e gerenciamento de memória em C. Ao trabalhar nesse projeto, você desenvolve habilidades cruciais, como:
 
 - Gerenciamento de Buffers: Aprender a usar buffers com a função read() ensina como gerenciar a leitura de dados de forma eficiente, equilibrando entre o tamanho do buffer e a quantidade de chamadas ao sistema.
 
