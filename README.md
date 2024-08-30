@@ -33,3 +33,17 @@ Como parte do bônus, a função deve utilizar apenas uma variável estática pa
 Como Usar
 Compile o projeto utilizando o comando de compilação com a flag -D BUFFER_SIZE.
 Utilize a função get_next_line para ler arquivos ou entrada padrão, chamando-a repetidamente em um loop para processar o texto linha por linha.
+
+ projeto "Get Next Line" oferece um aprendizado fundamental em manipulação de arquivos e gerenciamento de memória em C. Ao trabalhar nesse projeto, você desenvolve habilidades cruciais, como:
+
+Gerenciamento de Buffers: Aprender a usar buffers com a função read() ensina como gerenciar a leitura de dados de forma eficiente, equilibrando entre o tamanho do buffer e a quantidade de chamadas ao sistema.
+
+Manipulação de Strings: A manipulação de strings para construir e retornar linhas completas requer compreensão profunda de alocação dinâmica e concatenação de strings em C.
+
+Gerenciamento de Vários Descritores de Arquivo: A implementação do suporte para múltiplos descritores de arquivo, usando uma única variável estática, desafia a habilidade de gerenciar o estado entre várias chamadas à função, o que é um conceito avançado em programação.
+
+Tratamento de Erros: Aprender a lidar com diferentes cenários de erro e EOF (fim de arquivo) contribui para a criação de código robusto e resiliente.
+
+Pensamento Crítico e Resolução de Problemas: A necessidade de otimizar e fazer o código funcionar corretamente em diferentes condições estimula o desenvolvimento de habilidades de resolução de problemas.
+
+Esse projeto não só aprofunda seu conhecimento em C, mas também prepara você para desafios futuros, onde a manipulação eficiente de dados e o gerenciamento adequado de recursos são essenciais.
